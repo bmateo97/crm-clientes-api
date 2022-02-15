@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const uri = "mongodb://localhost:27017/crm-clientes";
+const uri = "mongodb+srv://bmateo97:Mateo9704@cursomongo.nfjpz.mongodb.net/test/crm-clientes";
 const DBConnection = async () => {
   try {
     await mongoose.connect(uri);
